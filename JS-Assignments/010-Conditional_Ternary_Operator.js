@@ -4,8 +4,9 @@
 // After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original.
 
 const population = 1476;
+const country = "India";
 
 // population = 13;
 // population = 130;
 
-console.log(population > 33 ? "India's population is above average" : " India's population is below average");
+console.log(`${country}'s population is ${population > 33 ? "above" : "below"} average`);
