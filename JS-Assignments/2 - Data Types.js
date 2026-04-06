@@ -7,6 +7,7 @@ let isIsland = false;
 let country = "India";
 let continent = "Asia";
 let population = "1476";
+let language;
 
 console.log(isIsland);
 console.log(country);
