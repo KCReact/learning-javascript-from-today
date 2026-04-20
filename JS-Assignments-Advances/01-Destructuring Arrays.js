@@ -14,7 +14,8 @@ const [, , thirdBook] = books;
 
 // const ratings = [['rating', 4.19], ['ratingsCount', 144584]];
 
-const [rating, ratingsCount] = [ratings[0][1], ratings[1][1]];
+// const [rating, ratingsCount] = [ratings[0][1], ratings[1][1]];
+const [[, rating], [, ratingsCount]] = ratings;
 console.log(rating, ratingsCount);
 
 // Below is the ratingStars array. 
