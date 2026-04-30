@@ -41,10 +41,28 @@ function getKeywordsAsString(books) {
   return uniqueKeywords.join(';');
 }
 
+// Below is the bookChapters array that contains inner arrays. Each inner array consists of a chapter's title, 
+// and the number of a page, for example, in ['The Basics', 14], 'The Basics' is the chapter's title, and 14 is the number of a page.
+// Write a function called logBookChapters that takes an array of arrays (like bookChapters) as an argument, and logs each chapter's name to the console together with the page number.
+// The page number should be separated from the chapter's name with underscores (take a look at the example below).
+
+// Use the padEnd method.
 
 
+const bookChapters = [
+  ['The Basics', 14],
+  ['Sorting', 254],
+  ['Searching', 372],
+  ['Graphs', 526],
+  ['Strings', 706],
+];
+logBookChapters(bookChapters);
 
-
+function logBookChapters(book) {
+  for ([chapter, page] of book) {
+    console.log(chapter.padEnd(20, '_') + page);
+  }
+}
 
 
 
