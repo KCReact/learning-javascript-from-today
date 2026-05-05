@@ -5,7 +5,7 @@ It mainly has two parts -> Call Stack and Heap
 -> Call Stack : This is the place where the execution contexts and variables are stored in memory.
 -> Heap : This is the place where objects are stored in memory during execution.
 
-Popular JS Engines : V8 (Chrome) , SpiderMonkey (Firefox) , JavaScriptCore (Safari)
+Popular JS Engines : V8 (Chrome, NodeJS) , SpiderMonkey (Firefox) , JavaScriptCore (Safari)
 
 Inside the engine:
 
